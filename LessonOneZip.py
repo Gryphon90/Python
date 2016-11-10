@@ -14,6 +14,7 @@ ZIP5 = studybuddy_5 [-5:]
 
 
 #Goal 1 - Create a program that simply shows all the ZIP codes, each on it's own line
+#could have also printed the zip variables
 print 'Goal 1\n'
 
 print studybuddy_1 [-5:]
