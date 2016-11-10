@@ -5,6 +5,12 @@ studybuddy_3 = 'Megan Dugan, 25 Willow Way, Central Square, NY 13036'
 studybuddy_4 = 'Linda Maquire, 159 Lackdon Alley, Syracuse, NY 13202'
 studybuddy_5 = 'Cindy Starmela, 6781 Blackdon ST, N. Syracuse, NY 13211'
 
+ZIP1 = studybuddy_1 [-5:]
+ZIP2 = studybuddy_2 [-5:]
+ZIP3 = studybuddy_3 [-5:]
+ZIP4 = studybuddy_4 [-5:]
+ZIP5 = studybuddy_5 [-5:]
+
 
 
 #Goal 1 - Create a program that simply shows all the ZIP codes, each on it's own line
@@ -18,13 +24,8 @@ print studybuddy_5 [-5:]
 
 
 #Goal 2 - Output all ZIP codes on a single line with text explaining what they are
-print '\n Goal 2\n'
+print '\nGoal 2\n'
 
-ZIP1 = studybuddy_1 [-5:]
-ZIP2 = studybuddy_2 [-5:]
-ZIP3 = studybuddy_3 [-5:]
-ZIP4 = studybuddy_4 [-5:]
-ZIP5 = studybuddy_5 [-5:]
 
 print 'The study group covers a wide geographic ares there are participates from {0}, {1}, {2}, {3}, {4}.'.format ((ZIP1),(ZIP2),(ZIP3),(ZIP4),(ZIP5))
 
