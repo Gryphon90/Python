@@ -10,6 +10,6 @@ print '<select>'
 print '<option value="">Select State</option>'
 
 for state in (states):
-    print '\t<option value="">{0}</option>'.format(state)
+    print '<option value="">{0}</option>'.format(state)
 	
 print '</select>'
