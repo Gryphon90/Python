@@ -6,7 +6,7 @@ states = ['Alabama', 'Alaska','Arizona','Arkansas','California','Colorado','Conn
 
 
 
-print '<select>'
+print '<select name="state">'
 print '<option value="">Select State</option>'
 
 for state in (states):
